@@ -165,11 +165,9 @@ section#teachers article{
 }
 
 section#teachers figure{
-    border: dotted 1px #000000;
     width: 150px;
     height: 150px;
     float: left;
-
 }
 section#teachers figure img{
     width: 150px;
@@ -227,6 +225,7 @@ footer .footer-wrapper article ul{
         text-decoration: none;
         color: #97e5e0;
         font-size: 12px;
+        font-weight: bold;
     }
         footer .footer-wrapper article ul li a:hover{
             text-decoration: none;
