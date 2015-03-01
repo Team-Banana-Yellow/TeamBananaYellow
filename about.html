@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Banana Team</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+    <!--
+    <div class="global-wrapper"></div>
+    <div class="global-left"></div>
+    -->
+        <div class="container">
+            <header class="navbar-wrapper">
+                <div class="top-bar">
+                    <a class="logo" href="/"></a>
+                </div>
+                <div class="menuContainer">
+                    <nav class="navContainer">
+                        <label for="show-menu" class="show-menu">Меню</label>
+                        <input type="checkbox" id="show-menu" role="button" />
+                        <ul id="menu">
+                            <li><a href="index.html">Начало</a></li>
+                            <li>
+                                <a href="courses.html">Курсове &blacktriangledown;</a>
+                                <ul class="hidden">
+                                    <li><a href="#">C#</a></li>
+                                    <li><a href="#">Java</a></li>
+                                    <li><a href="#">HTML & CSS</a></li>
+                                    <li><a href="#">JavaScript</a></li>
+                                    <li><a href="#">PHP</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Развлечения</a></li>
+                            <li><a href="teachers.html">Злодеи</a></li>
+                            <li><a href="about.html">За нас</a></li>
+                            <li><a href="contacts.html">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <main>
+                <div class="mainContainer">
+                    <section id="teachers">
+                        <h1>ЗА НАС</h1>
+                        <article>
+                            <figure>
+                                <img src="images/150maid_clear.png" alt="Анна">
+                            </figure>
+                            <p>
+                                Анна Църнакова Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat illo mollitia quod saepe veniam, veritatis voluptatibus. Error facilis, id itaque maxime necessitatibus nesciunt porro reprehenderit! Incidunt magni nemo vitae.
+                            </p>
+                        </article>
+
+                        <article>
+                            <figure>
+                                <img src="images/150girl.png" alt="Пламена">
+                            </figure>
+                            <p>
+                                Пламена Митрева Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab alias aut dolorem doloribus dolorum harum id modi nam, neque nulla numquam odio optio qui quisquam repellendus reprehenderit similique velit.
+                            </p>
+                        </article>
+
+                        <article>
+                            <figure>
+                                <img src="images/150girl2_clear.png" alt="Йоана">
+                            </figure>
+                            <p>
+                                Йоана Николова Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, asperiores, maiores. Accusantium amet corporis doloremque esse eveniet exercitationem facilis, fuga harum molestias mollitia nihil odio officiis optio perspiciatis reprehenderit suscipit?
+                            </p>
+                        </article>
+
+                        <article>
+                            <figure>
+                                <img src="images/150karl_clear.png" alt="Делчо">
+                            </figure>
+                            <p>
+                                Делчо Димитров Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolores eius esse id maiores nemo nesciunt, odit, possimus quae reiciendis soluta ut voluptatem voluptates voluptatibus voluptatum. Debitis ipsum quisquam rem.
+                            </p>
+                        </article>
+                   </section>
+
+                </div>
+            </main>
+
+            <footer>
+                <section class="footer-wrapper">
+                    <article>
+                        <h4>Banana Yellow University</h4>
+                        <ul>
+                            <li><a href="index.html">Начало</a></li>
+                            <li><a href="courses.html">Курсове</a></li>
+                            <li><a href="fun.html">Развлечения</a></li>
+                            <li><a href="teachers.html">Злодеи</a></li>
+                            <li><a href="about.html">За нас</a></li>
+                            <li><a href="contacts.html">Контакти</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <h4>Контакти</h4>
+                        <ul>
+                            <li><a href="https://github.com/Anna-Tsarnakova">Анна Църнакова</a></li>
+                            <li><a href="https://github.com/Kolimnared">Делчо Димитров</a></li>
+                            <li><a href="https://github.com/Pokahontas">Йоана Николова</a></li>
+                            <li><a href="https://github.com/PlamenaMiteva">Пламена Митрева</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <div class="fb-like-box" data-href="https://www.facebook.com/minions" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false" data-width="230" data-height="180">
+                        </div>
+                    </article>
+                </section>
+
+                <hr />
+                <div class="location">
+                    <a href="http://maps.google.com/?q=SoftUni" target="_blank">
+                    <span>
+                       &#169; Banana Yellow University
+                     </span>
+                    <span>
+                        София, кв. Изгрев, ул. "Тинтява" 15-17, етаж 2
+                    </span>
+                    </a>
+                </div>
+
+            </footer>
+
+        </div>
+   <!-- <div class="global-right"></div> -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=212955612198903&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    </body>
+</html>
