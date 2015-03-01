@@ -39,11 +39,12 @@ body{
     position: relative;
     height: 120px;
     background-color: #00497f;
+    background: url("../images/header5.png")
 }
 
 .logo {
     float: left;
-    background: url(../images/minion_3_clear.png) no-repeat;
+/*    background: url(../images/minion_3_clear.png) no-repeat;*/
     background-size: 100px 100px;
     width: 100px;
     height: 100px;
