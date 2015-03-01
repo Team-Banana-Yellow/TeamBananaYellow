@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Students</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/students-style.css" />
+</head>
+
+<body>
+    <!--
+    <div class="global-wrapper"></div>
+    <div class="global-left"></div>
+    -->
+    <div class="container">
+        <header class="navbar-wrapper">
+            <div class="top-bar">
+                <a class="logo" href="/"></a>
+            </div>
+            <div class="menuContainer">
+                <nav class="navContainer">
+                    <label for="show-menu" class="show-menu">Меню</label>
+                    <input type="checkbox" id="show-menu" role="button" />
+                    <ul id="menu">
+                        <li><a href="index.html">Начало</a>
+                        </li>
+                        <li>
+                            <a href="courses.html">Курсове &blacktriangledown;</a>
+                            <ul class="hidden">
+                                <li><a href="#">C#</a>
+                                </li>
+                                <li><a href="#">Java</a>
+                                </li>
+                                <li><a href="#">HTML & CSS</a>
+                                </li>
+                                <li><a href="#">JavaScript</a>
+                                </li>
+                                <li><a href="#">PHP</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="fun.html">Развлечения</a>
+                        </li>
+                        <li><a href="teachers.html">Злодеи</a>
+                        </li>
+                        <li><a href="about.html">За нас</a>
+                        </li>
+                        <li><a href="contacts">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="mainContainer">
+                <h1>Нашите студенти</h1>
+                <div class="opening">
+                    <img src="images/student.jpg" class="img-responsive" id="student" alt="Student Photo">
+
+                    <p>Нашето обучение е подходящо както за начинаещи програмисти, които мислят, че в един килобайт има 1000 байта така и за напреднали програмисти, за които килограм банани е равен на 1024 грама банани.
+
+                    </p>
+                </div>
+                <div class="qualities">
+                    <div class="student-qualities">
+                    <p>Вие сте подходящ кандидат ако:
+                    </p>
+                    <ul>
+                        <li>когато сте проговорили първите думи, които сте изрекли са били: "Hello, World!".</li>
+                        <li>притежавате смелост - не се плашите, когато програмата ви се повреди. Важното е никой да не разбере!</li>
+                        <li>имате само два проблема: 1 и 0 </li>
+                        <li>смятате, че компютърът не е разкош, а предмет от първа необходимист за интернет</li>
+                        <li>докато четете интересна статия във вестника търсите бутон "добави коментар"</li>
+                        <li>видео игрите контролират живота ви, но вие винаги имате още два допълнителни</li>
+                        <li>всяка вечер се чудите какво да гледате, докато ядете пред компютъра</li>
+                        <li>смятате, че да говориш на стената е нормално</li>
+                        <li>не сте алергични към офисния прах. В противен случай тази професия не е за вас и нашият съвет е да си потърсете истинска работа!</li>
+                    </ul></div>
+                    <img src="images/student2.jpg" class="img-responsive" alt="Student Photo">
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <section class="footer-wrapper">
+                <article>
+                    <h4>Banana Yellow University</h4>
+                    <ul>
+                        <li><a href="index.html">Начало</a>
+                        </li>
+                        <li><a href="courses.html">Курсове</a>
+                        </li>
+                        <li><a href="fun.html">Развлечения</a>
+                        </li>
+                        <li><a href="teachers.html">Злодеи</a>
+                        </li>
+                        <li><a href="about.html">За нас</a>
+                        </li>
+                        <li><a href="contacts.html">Контакти</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <h4>Контакти</h4>
+                    <ul>
+                        <li><a href="https://github.com/Anna-Tsarnakova">Анна Църнакова</a>
+                        </li>
+                        <li><a href="https://github.com/Kolimnared">Делчо Димитров</a>
+                        </li>
+                        <li><a href="https://github.com/Pokahontas">Йоана Николова</a>
+                        </li>
+                        <li><a href="https://github.com/PlamenaMiteva">Пламена Митрева</a>
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                    <div class="fb-like-box" data-href="https://www.facebook.com/minions" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false" data-width="230" data-height="180">
+                    </div>
+                </article>
+            </section>
+
+            <hr />
+            <div class="location">
+                <a href="http://maps.google.com/?q=SoftUni" target="_blank">
+                    <span>
+                       &#169; Banana Yellow University
+                     </span>
+                    <span>
+                        София, кв. Изгрев, ул. "Тинтява" 15-17, етаж 2
+                    </span>
+                </a>
+            </div>
+
+        </footer>
+    </div>
+    <!--
+    <div class="global-right"></div>
+    -->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=212955612198903&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
+
+</html>
