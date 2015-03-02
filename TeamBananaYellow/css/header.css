@@ -36,7 +36,7 @@
 /*Style for menu links*/
 .navContainer>ul>li a {
     display: block;
-    min-width: 160px;
+    min-width: 136px;
     text-align: center;
     color: #fff;
     background: #002a36;
@@ -93,15 +93,32 @@
     display: block;
 }
 #menu em.caret{
-
     width: 0;
     height: 0;
     overflow:hidden;/*for IE6*/
     vertical-align:middle;
     margin-bottom:2px;
-    border-top: 4px solid;/*caret size is 4px now*/
+    border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
     display: inline-block;
     position:relative;
+}
+
+@media screen and (max-width : 760px) {
+    /*Make dropdown links appear inline*/
+    .navContainer ul {
+        position: static;
+        display: none;
+    }
+
+    /*Make all menu links full width*/
+    .navContainer ul li {
+        width: 100%;
+    }
+
+    /*Display menu link*/
+    .show-menu {
+        display: block;
+    }
 }

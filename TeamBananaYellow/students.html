@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Banana Team</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/header.css" />
-    <link rel="stylesheet" type="text/css" href="css/footer.css" />
-</head>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Banana Team</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/header.css" />
+        <link rel="stylesheet" type="text/css" href="css/students.css" />
+        <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    </head>
     <body>
         <div class="container">
             <header class="navbar-wrapper">
@@ -42,48 +43,34 @@
             </header>
             <main>
                 <div class="mainContainer">
-                    <section id="teachers">
-                        <h1>ЗА НАС</h1>
-                        <article>
-                            <figure>
-                                <img src="images/150maid_clear.png" alt="Анна">
-                            </figure>
-                            <p>
-                                Анна Църнакова Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus fugiat illo mollitia quod saepe veniam, veritatis voluptatibus. Error facilis, id itaque maxime necessitatibus nesciunt porro reprehenderit! Incidunt magni nemo vitae.
-                            </p>
-                        </article>
+                    <h1>Нашите студенти</h1>
+                    <div class="opening">
+                        <img src="images/student.jpg" class="img-responsive" id="student" alt="Student Photo">
 
-                        <article>
-                            <figure>
-                                <img src="images/150girl.png" alt="Пламена">
-                            </figure>
-                            <p>
-                                Пламена Митрева Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab alias aut dolorem doloribus dolorum harum id modi nam, neque nulla numquam odio optio qui quisquam repellendus reprehenderit similique velit.
-                            </p>
-                        </article>
+                        <p>Нашето обучение е подходящо както за начинаещи програмисти, които мислят, че в един килобайт има 1000 байта така и за напреднали програмисти, за които килограм банани е равен на 1024 грама банани.
 
-                        <article>
-                            <figure>
-                                <img src="images/150girl2_clear.png" alt="Йоана">
-                            </figure>
-                            <p>
-                                Йоана Николова Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, asperiores, maiores. Accusantium amet corporis doloremque esse eveniet exercitationem facilis, fuga harum molestias mollitia nihil odio officiis optio perspiciatis reprehenderit suscipit?
+                        </p>
+                    </div>
+                    <div class="qualities">
+                        <div class="student-qualities">
+                            <p>Вие сте подходящ кандидат ако:
                             </p>
-                        </article>
-
-                        <article>
-                            <figure>
-                                <img src="images/150karl_clear.png" alt="Делчо">
-                            </figure>
-                            <p>
-                                Делчо Димитров Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dolores eius esse id maiores nemo nesciunt, odit, possimus quae reiciendis soluta ut voluptatem voluptates voluptatibus voluptatum. Debitis ipsum quisquam rem.
-                            </p>
-                        </article>
-                   </section>
+                            <ul>
+                                <li>когато сте проговорили първите думи, които сте изрекли са били: "Hello, World!".</li>
+                                <li>притежавате смелост - не се плашите, когато програмата ви се повреди. Важното е никой да не разбере!</li>
+                                <li>имате само два проблема: 1 и 0 </li>
+                                <li>смятате, че компютърът не е разкош, а предмет от първа необходимист за интернет</li>
+                                <li>докато четете интересна статия във вестника търсите бутон "добави коментар"</li>
+                                <li>видео игрите контролират живота ви, но вие винаги имате още два допълнителни</li>
+                                <li>всяка вечер се чудите какво да гледате, докато ядете пред компютъра</li>
+                                <li>смятате, че да говориш на стената е нормално</li>
+                                <li>не сте алергични към офисния прах. В противен случай тази професия не е за вас и нашият съвет е да си потърсете истинска работа!</li>
+                            </ul></div>
+                        <img src="images/student2.jpg" class="img-responsive" alt="Student Photo">
+                    </div>
 
                 </div>
             </main>
-
             <footer>
                 <section class="footer-wrapper">
                     <article>
@@ -127,7 +114,7 @@
             </footer>
 
         </div>
-   <!-- <div class="global-right"></div> -->
+
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];

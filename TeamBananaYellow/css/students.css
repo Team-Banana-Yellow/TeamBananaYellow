@@ -1,0 +1,42 @@
+.opening {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.opening img {
+    flex: 1;
+    max-width: 100%;
+}
+.opening p {
+    flex: 2;
+    padding-left: 5%;
+}
+.mainContainer p {
+    text-align: justify;
+    line-height: 22px;
+}
+.qualities {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.student-qualities {
+    flex: 2;
+}
+.qualities img {
+    flex: 1;
+    padding-left: 5%;
+    max-width: 100%;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px) {
+
+    .opening img {
+        flex: 3 100%;
+    }
+
+    .student-qualities {
+        flex: 3 100%;
+    }
+}

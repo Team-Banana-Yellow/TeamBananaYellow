@@ -66,19 +66,6 @@ section#teachers article p{
 /*Responsive Styles*/
 
 @media screen and (max-width : 760px){
-    /*Make dropdown links appear inline*/
-    .navContainer  ul {
-        position: static;
-        display: none;
-    }
-    /*Make all menu links full width*/
-    .navContainer ul li{
-        width: 100%;
-    }
-    /*Display menu link*/
-    .show-menu {
-        display: block;
-    }
 
     /*YouTube clip*/
     .video-container {
