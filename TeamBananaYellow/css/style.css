@@ -6,128 +6,11 @@ body{
 /*    background-color: #00acc5; */
     background: url("../images/circuit2.jpg") fixed;
 }
-/*
-.global-wrapper{
-
-}
-.global-left{
-    background: url("../images/left-border.png");
-    width: 32px;
-    height: 1920px;
-    background-attachment: fixed;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0px auto;
-}
-.global-right{
-    background: url("../images/left-border.png");
-    width: 32px;
-    height: 1920px;
-    background-attachment: fixed;
-    display: inline-block;
-    vertical-align: top;
-
-}
-*/
 .container {
     width: 100%;
     max-width: 965px;
     margin: 0px auto;
     vertical-align: top;
-}
-.top-bar{
-    position: relative;
-    height: 120px;
-    background-color: #00497f;
-    background: url("../images/header6.png")
-}
-
-.logo {
-    float: left;
-/*    background: url(../images/minion_3_clear.png) no-repeat;*/
-    background-size: 100px 100px;
-    width: 100px;
-    height: 100px;
-}
-
-/*Strip the ul of padding and list styling*/
-.navContainer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-}
-.navContainer ul:after {
-    content: "";
-    clear: both;
-    display: block;
-}
-/*Create a horizontal list with spacing*/
-.navContainer>ul>li {
-    display: inline-block;
-    float: left;
-    line-height: 35px;
-    border-right: solid 1px #fff0cb;
-}
-
-/*Style for menu links*/
-.navContainer>ul>li a {
-    display: block;
-    min-width: 160px;
-    text-align: center;
-    color: #fff;
-    background: #002a36;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-/*Hover state for top level links*/
-.navContainer>ul>li a:hover{
-    background: #006bac;
-}
-
-/*Style for dropdown links*/
-.navContainer>ul>li:hover ul a {
-    background: #97e5e0;
-    color: #2f3036;
-    height: 40px;
-    line-height: 40px;
-}
-
-/*Hover state for dropdown links*/
-.navContainer>ul>li:hover ul a:hover {
-    background: #86ffd9;
-    color: #ffa615;
-}
-
-/*Hide dropdown links until they are needed*/
-.navContainer>ul>li>ul {
-    display: none;
-}
-
-/*Display the dropdown menu on hover*/
-.navContainer ul li:hover > ul {
-    display: block;
-}
-/*Style for menu label button and hide it by default*/
-.show-menu {
-    text-decoration: none;
-    color: #fff;
-    background: #00c5c4;
-    text-align: center;
-    padding: 10px 0;
-    display: none;
-    text-transform: uppercase;
-}
-
-/*Hide checkbox*/
-.navContainer input[type="checkbox"]{
-    display: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-.navContainer input[type="checkbox"]:checked ~ #menu{
-    display: block;
 }
 
 /*Main*/
@@ -147,22 +30,19 @@ main{
     text-align: center;
 }
 .mainContainer p{
-    text-align: justify;
     line-height: 22px;
 }
+/*Youtube video*/
 .video-container {
    padding-left: 10%;
 }
-
-
+/*Teachers*/
 section#teachers{
     width:100%;
     display: block;
-
 }
 section#teachers article{
     display: inline-block;
-
 }
 
 section#teachers figure{
@@ -175,93 +55,13 @@ section#teachers figure img{
     height: 150px;
 
 }
-
-
 section#teachers article p{
     width: 70%;
     float: left;
-
 }
 
 
 
-
-
-/*Footer*/
-
-footer {
-    width: 100%;
-    background-color: #002a55;
-}
-footer hr{
-    height: 1px;
-    color: #134c6f;
-    background-color: #134c6f;
-    border: none;
-}
-footer .footer-wrapper article{
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px 30px;
-}
-footer .footer-wrapper article h4 {
-    color: #ffbc00;
-    margin: 5px;
-    padding: 0;
-}
-footer .footer-wrapper article ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-    footer .footer-wrapper article ul li{
-        line-height: 12px;
-        padding: 5px;
-    }
-    footer .footer-wrapper article ul li:hover{
-        background-color: rgba(152, 171, 141, 0.40);
-    }
-
-    footer .footer-wrapper article ul li a{
-        text-decoration: none;
-        color: #97e5e0;
-        font-size: 12px;
-        font-weight: bold;
-    }
-        footer .footer-wrapper article ul li a:hover{
-            text-decoration: none;
-            color: #ffbc00;
-        }
-footer .location{
-    font-size: 12px;
-    text-decoration: none;
-    text-align: center;
-    padding-bottom: 10px;
-}
-    footer .location a{
-         text-decoration: none;
-         color: #ffffff;
-     }
-        footer .location a:hover{
-            color: #aaa;
-        }
-
-
-
-button.social-button {
-    width: 32px;
-    height: 32px;
-    float: left;
-    padding: 0;
-    border: none;
-    background-color: #234465;
-}
-button.social-button:hover {
-    cursor: pointer;
-}
-.fb-like-box{
-    background-color: #ffffff;
-}
 
 /*Responsive Styles*/
 
