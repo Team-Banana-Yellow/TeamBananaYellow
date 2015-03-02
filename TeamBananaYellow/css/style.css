@@ -39,7 +39,7 @@ body{
     position: relative;
     height: 120px;
     background-color: #00497f;
-    background: url("../images/header5.png")
+    background: url("../images/header6.png")
 }
 
 .logo {
@@ -246,6 +246,19 @@ footer .location{
             color: #aaa;
         }
 
+
+
+button.social-button {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    border: none;
+    background-color: #234465;
+}
+button.social-button:hover {
+    cursor: pointer;
+}
 .fb-like-box{
     background-color: #ffffff;
 }
