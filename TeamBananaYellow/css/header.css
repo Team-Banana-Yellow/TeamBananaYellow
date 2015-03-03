@@ -1,8 +1,7 @@
 .top-bar{
     position: relative;
     height: 120px;
-    background-color: #00497f;
-    background: url("../images/header6.png")
+    background: url("../images/header6.png") #00497f;
 }
 
 .logo {
@@ -32,11 +31,13 @@
     line-height: 35px;
     border-right: solid 1px #fff0cb;
 }
-
+.navContainer>ul>li:last-child{
+    border-right: none;
+}
 /*Style for menu links*/
 .navContainer>ul>li a {
     display: block;
-    min-width: 136px;
+    min-width: 137px;
     text-align: center;
     color: #fff;
     background: #002a36;
@@ -44,14 +45,14 @@
     text-transform: uppercase;
 }
 
-/*Hover state for top level links*/
+/*Hover state for first level links*/
 .navContainer>ul>li a:hover{
     background: #006bac;
 }
 
 /*Style for dropdown links*/
 .navContainer>ul>li:hover ul a {
-    background: #97e5e0;
+    background: #c0e5d9;
     color: #2f3036;
     height: 40px;
     line-height: 40px;
@@ -59,8 +60,8 @@
 
 /*Hover state for dropdown links*/
 .navContainer>ul>li:hover ul a:hover {
-    background: #86ffd9;
-    color: #ffa615;
+    background: #e6fff1;
+    color: #b56c15;
 }
 
 /*Hide dropdown links until they are needed*/
@@ -76,7 +77,7 @@
 .show-menu {
     text-decoration: none;
     color: #fff;
-    background: #00a2c5;
+    background: #134c6f;
     text-align: center;
     padding: 10px 0;
     display: none;
@@ -95,14 +96,14 @@
 #menu em.caret{
     width: 0;
     height: 0;
-    overflow:hidden;/*for IE6*/
-    vertical-align:middle;
+    overflow: hidden;/*for IE6*/
+    vertical-align: middle;
     margin-bottom:2px;
     border-top: 4px solid;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
     display: inline-block;
-    position:relative;
+    position: relative;
 }
 
 @media screen and (max-width : 760px) {
@@ -111,12 +112,10 @@
         position: static;
         display: none;
     }
-
     /*Make all menu links full width*/
     .navContainer ul li {
         width: 100%;
     }
-
     /*Display menu link*/
     .show-menu {
         display: block;

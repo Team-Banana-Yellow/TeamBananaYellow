@@ -2,7 +2,7 @@
 
 footer {
     width: 100%;
-    background-color: #002a55;
+    background-color: #002a36;
 }
 footer hr{
     height: 1px;
@@ -26,7 +26,7 @@ footer .footer-wrapper article ul{
     margin: 0;
 }
 footer .footer-wrapper article ul li{
-    line-height: 12px;
+    line-height: 10px;
     padding: 5px;
 }
 footer .footer-wrapper article ul li:hover{
@@ -35,7 +35,7 @@ footer .footer-wrapper article ul li:hover{
 
 footer .footer-wrapper article ul li a{
     text-decoration: none;
-    color: #97e5e0;
+    color: rgb(196,180,154);
     font-size: 12px;
     font-weight: bold;
 }
@@ -68,10 +68,6 @@ button.social-button {
 button.social-button:hover {
     cursor: pointer;
 }
-.fb-like-box{
-    background-color: #ffffff;
-}
-
 
 /*Responsive Styles*/
 
@@ -105,15 +101,7 @@ button.social-button:hover {
 
 }
 
-
 @media screen and (max-width: 480px) {
-    #fb-root {
-        display: none;
-    }
-
-    .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
-        width: 100% !important;
-    }
 
 
 }
