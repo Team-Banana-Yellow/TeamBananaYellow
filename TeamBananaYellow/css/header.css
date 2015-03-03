@@ -121,3 +121,24 @@
         display: block;
     }
 }
+
+@media screen and (max-width : 480px) {
+    /*Make dropdown links appear inline*/
+    .navContainer ul {
+        position: static;
+        display: none;
+    }
+    /*Make all menu links full width*/
+    .navContainer ul li {
+        width: 100%;
+    }
+    /*Display menu link*/
+    .show-menu {
+        display: block;
+    }
+
+    .top-bar {
+        height: 96px;
+        background: url("../images/header6_m.png");
+    }
+}

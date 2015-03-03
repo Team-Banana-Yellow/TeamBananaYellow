@@ -53,14 +53,11 @@ section#teachers figure{
 section#teachers figure img{
     width: 150px;
     height: 150px;
-
 }
 section#teachers article p{
     width: 70%;
     float: left;
 }
-
-
 
 
 /*Responsive Styles*/
@@ -85,28 +82,9 @@ section#teachers article p{
         height: 100%;
     }
 
-    /*Footer*/
-    footer {
-        height: auto;
-    }
-
-    footer > article > ul > li {
-        display: block;
-    }
-
-
-
 }
 
-
 @media screen and (max-width: 480px) {
-    #fb-root {
-        display: none;
-    }
-
-    .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
-        width: 100% !important;
-    }
 
 
 }
