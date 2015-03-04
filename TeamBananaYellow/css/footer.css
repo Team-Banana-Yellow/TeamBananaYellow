@@ -28,6 +28,7 @@ footer .footer-wrapper article ul{
 footer .footer-wrapper article ul li{
     line-height: 10px;
     padding: 5px;
+    display: inline-block;
 }
 footer .footer-wrapper article ul li:hover{
     background-color: rgba(152, 171, 141, 0.40);
@@ -69,6 +70,11 @@ button.social-button:hover {
     cursor: pointer;
 }
 
+.warning-border{
+    background: url("../images/hor-border2.png");
+    width: 960px;
+    height: 8px;
+}
 /*Responsive Styles*/
 
 @media screen and (max-width : 760px){

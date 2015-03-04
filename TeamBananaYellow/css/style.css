@@ -21,6 +21,20 @@ main{
     min-height: 700px;
     background-color: #fff0cb;
 }
+.warning-border-left {
+    background: url("../images/ver-border.png");
+    width: 10px;
+    height: 62px;
+    display: inline-block;
+    float: left;
+}
+.warning-border-right {
+    background: url("../images/ver-border.png");
+    width: 10px;
+    height: 62px;
+    display: inline;
+    float: right;
+}
 .mainContainer{
     width: 98%;
     margin: 0 1%;
