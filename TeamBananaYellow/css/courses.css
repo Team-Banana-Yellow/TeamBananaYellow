@@ -1,12 +1,10 @@
-.navContainer>ul>li {
-    width: 13.79%;
-    overflow: hidden;
-}
-
 main h1 {
     text-align: center;
 }
-
+img{
+    width: 200px;
+    height: 300px;
+}
 .media-object {
     height: auto;
     transform: scale(1, 1);

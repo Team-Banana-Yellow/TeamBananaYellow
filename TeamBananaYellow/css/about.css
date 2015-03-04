@@ -1,0 +1,50 @@
+article{
+    display: flex;
+}
+figure{
+
+}
+ul.social-links {
+    list-style: none;
+    padding: 0;
+
+}
+ul.social-links li{
+   display: inline-block;
+}
+ul.social-links li a{
+    height: 28px;
+    width: 33px;
+    display: block;
+}
+
+
+.figure-one ul.social-links li.fb a{
+    background: transparent url("../images/social/socials.png") repeat scroll -64px 0px;
+}
+.figure-one ul.social-links li.in a{
+    background: transparent url("../images/social/socials.png") repeat scroll -64px -105px;
+}
+.figure-one ul.social-links li.skype a{
+    background: transparent url("../images/social/socials.png") repeat scroll -64px -139px;
+}
+.figure-one ul.social-links li.git a{
+    background: transparent url("../images/social/socials.png") repeat scroll -64px -171px;
+}
+
+.figure-one ul.social-links li.fb a:hover{
+    background: transparent url("../images/social/socials.png") repeat scroll -33px 0px;
+}
+.figure-one ul.social-links li.in a:hover{
+    background: transparent url("../images/social/socials.png") repeat scroll -32px -105px;
+}
+.figure-one ul.social-links li.skype a:hover{
+    background: transparent url("../images/social/socials.png") repeat scroll -32px -139px;
+}
+.figure-one ul.social-links li.git a:hover{
+    background: transparent url("../images/social/socials.png") repeat scroll -32px -171px;
+}
+
+ul.genInfo li{
+    list-style: none;
+}
