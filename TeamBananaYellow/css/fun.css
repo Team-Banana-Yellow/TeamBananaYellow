@@ -1,0 +1,58 @@
+main>.mainContainer{
+    padding-left: 0;
+    text-align: center;
+}
+
+    main>.mainContainer>aside{
+        margin: 10px;
+        border: 1px solid black;
+        width: 140px;
+        height: 430px;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+        float: left;
+    }
+
+    main>.mainContainer>aside>h3{
+        margin: 0 auto;
+    }
+
+        main>.mainContainer>aside>ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+            main>.mainContainer>aside>ul>li{
+                padding: 3px;
+            }
+
+/** --- GALLERY --- **/
+
+main>.mainContainer>.fun-gallery{
+    margin: 10px auto;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    width: 482px;
+    border: 1px solid black;
+}
+
+    main>.mainContainer>.fun-gallery>#gallery>img{
+        width: 480px;
+    }
+
+    main>.mainContainer>.fun-gallery>.image-generator{
+        margin: 3px auto;
+        width: 400px;
+        display: block;
+        background-color: #002a36;
+        color: white;
+        padding: 10px;
+    }
+
+    main>.mainContainer>.fun-gallery>.image-generator:hover{
+        cursor: pointer;
+        background-color: #006bac;
+    }
