@@ -21,6 +21,13 @@ main{
     min-height: 700px;
     background-color: #fff0cb;
 }
+h1{
+    text-transform: uppercase;
+}
+p{
+    text-indent: 40px;
+    text-align: justify;
+}
 .mainContainer{
     width: 98%;
     margin: 0 1%;
@@ -36,28 +43,7 @@ main{
 .video-container {
    padding-left: 16%;
 }
-/*Teachers*/
-section#teachers{
-    width:100%;
-    display: block;
-}
-section#teachers article{
-    display: inline-block;
-}
 
-section#teachers figure{
-    width: 150px;
-    height: 150px;
-    float: left;
-}
-section#teachers figure img{
-    width: 150px;
-    height: 150px;
-}
-section#teachers article p{
-    width: 70%;
-    float: left;
-}
 
 
 /*Responsive Styles*/

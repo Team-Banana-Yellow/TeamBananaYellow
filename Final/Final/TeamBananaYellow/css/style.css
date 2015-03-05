@@ -1,0 +1,90 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma, sans-serif;
+/*    background-color: #00acc5; */
+    background: url("../images/circuit2.jpg") fixed;
+}
+.container {
+    width: 100%;
+    max-width: 965px;
+    margin: 0px auto;
+    vertical-align: top;
+}
+
+/*Main*/
+
+main{
+    width: 100%;
+    height: 100%;
+    min-height: 700px;
+    background-color: #fff0cb;
+}
+.mainContainer{
+    width: 98%;
+    margin: 0 1%;
+    padding: 4%;
+}
+.mainContainer h1{
+    text-align: center;
+}
+.mainContainer p{
+    line-height: 22px;
+}
+/*Youtube video*/
+.video-container {
+   padding-left: 10%;
+}
+/*Teachers*/
+section#teachers{
+    width:100%;
+    display: block;
+}
+section#teachers article{
+    display: inline-block;
+}
+
+section#teachers figure{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+section#teachers figure img{
+    width: 150px;
+    height: 150px;
+}
+section#teachers article p{
+    width: 70%;
+    float: left;
+}
+
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px){
+
+
+    /*YouTube clip*/
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .video-container iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+}

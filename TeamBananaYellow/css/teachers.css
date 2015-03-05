@@ -1,0 +1,101 @@
+/*Teachers*/
+section#teachers{
+    width:100%;
+    display: block;
+}
+section#teachers article{
+    display: inline-block;
+    margin: 0 0 25px 0;
+}
+section#teachers article h4{
+    margin: 0 0 8px 0;
+}
+section#teachers figure{
+    float: left;
+    margin: 0;
+}
+section#teachers figure img{
+    width: 150px;
+    height: 150px;
+}
+
+section#teachers article p{
+    width: 80%;
+    float: left;
+    margin: 0;
+}
+@media screen and (min-width: 965px) {
+    #wrapper{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 964px){
+    #wrapper{
+        width: 99%;
+    }
+    section#teachers article{
+        margin-bottom: 20px;
+    }
+    section#teachers article figure{
+        margin: 0;
+    }
+    section#teachers article p{
+        font-size: 95%;
+        width: 75%;
+    }
+    section#teachers article h4{
+        font-size: 95%;
+    }
+    .mainContainer {
+        width: 100%;
+        margin: 0px;
+        padding: 2%;
+    }
+    section#teachers h1{
+        margin-top: 8% ;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #wrapper{
+        width: 99%;
+    }
+    .mainContainer {
+        width: 100%;
+        margin: 0;
+        padding: 2%;
+    }
+    section#teachers h1{
+        margin: 8% 0;
+    }
+    section#teachers article{
+        margin-bottom: 15%;
+    }
+    section#teachers article p{
+        font-size: 92%;
+        width: 99%;
+    }
+    section#teachers article h4{
+        font-size: 92%;
+    }
+    section#teachers article figure{
+        float: none;
+        position: relative;
+        margin-left: 20%;
+        align-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

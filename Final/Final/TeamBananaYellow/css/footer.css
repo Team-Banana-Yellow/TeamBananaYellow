@@ -1,0 +1,90 @@
+/*Footer*/
+
+footer {
+    width: 100%;
+    background-color: #002a36;
+}
+footer hr{
+    height: 1px;
+    color: #134c6f;
+    background-color: #134c6f;
+    border: none;
+}
+footer .footer-wrapper article{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 30px;
+}
+footer .footer-wrapper article h4 {
+    color: #ffbc00;
+    margin: 5px;
+    padding: 0;
+}
+footer .footer-wrapper article ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer .footer-wrapper article ul li{
+    line-height: 10px;
+    padding: 5px;
+}
+footer .footer-wrapper article ul li:hover{
+    background-color: rgba(152, 171, 141, 0.40);
+}
+
+footer .footer-wrapper article ul li a{
+    text-decoration: none;
+    color: rgb(196,180,154);
+    font-size: 12px;
+    font-weight: bold;
+}
+footer .footer-wrapper article ul li a:hover{
+    text-decoration: none;
+    color: #ffbc00;
+}
+footer .location{
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+footer .location a{
+    text-decoration: none;
+    color: #ffffff;
+}
+footer .location a:hover{
+    color: #aaa;
+}
+
+button.social-button {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    border: none;
+    background-color: #234465;
+}
+button.social-button:hover {
+    cursor: pointer;
+}
+
+/*Responsive Styles*/
+
+@media screen and (max-width : 760px){
+
+    /*Footer*/
+    footer {
+        height: auto;
+    }
+
+    footer > article > ul > li {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+}

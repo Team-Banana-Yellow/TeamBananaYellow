@@ -1,16 +1,96 @@
-.navContainer>ul>li {
-    width: 13.79%;
-    overflow: hidden;
-}
-
-main h1 {
-    text-align: center;
-}
-
-.media-object {
-    height: auto;
-    transform: scale(1, 1);
-    transition-duration: 2000ms;
-    transition-timing-function: ease-out;
+/*Students*/
+section.students{
     width: 100%;
+    display: block;
+}
+section.students article{
+    display: inline-block;
+    margin: 0 0 25px 0;
+}
+section.students article h4{
+    margin: 0 0 8px 0;
+}
+section.students figure{
+    float: left;
+    margin: 0 20px;
+}
+section.students figure img#two-students{
+    width: 270px;
+    height: 170px;
+}
+section.students figure img#one-student{
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+section.students article p{
+    width: 60%;
+    float: left;
+    margin: 0;
+}
+.mainContainer article:after, .mainContainer article:before {
+    content: "";
+    clear: both;
+    display: block;
+}
+@media screen and (min-width: 965px) {
+    #wrapper{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 780px) and (max-width: 964px){
+    .mainContainer {
+        width: 100%;
+        margin: 0;
+        padding: 2%;
+    }
+    section.students article p {
+        width: 58%
+    }
+    section.students h1{
+        margin: 5% 0;
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 779px){
+    .mainContainer {
+        width: 100%;
+        margin: 0;
+        padding: 2%;
+    }
+    section.students article img#two-students{
+        margin: 5% 0 5% 40%;
+    }
+    section.students article p {
+        width: 100%
+    }
+    section.students h1{
+        margin: 5% 0;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 639px) {
+    .mainContainer {
+        width: 100%;
+        margin: 0px;
+        padding: 2%;
+    }
+    section.students article img#two-students{
+        margin: 5% 0 5% 24%;
+    }
+    section.students article p {
+        width: 100%
+    }
+}
+@media screen and (max-width: 480px){
+    .mainContainer {
+        width: 100%;
+        margin: 0px;
+        padding: 2%;
+    }
+    section.students article p,  section.students article ul li{
+        font-size: 90%;
+        width: 100%;
+    }
+    section.students article figure{
+        float: none;
+    }
 }

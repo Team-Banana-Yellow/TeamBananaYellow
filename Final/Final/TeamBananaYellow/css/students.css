@@ -1,0 +1,16 @@
+.navContainer>ul>li {
+    width: 13.79%;
+    overflow: hidden;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.media-object {
+    height: auto;
+    transform: scale(1, 1);
+    transition-duration: 2000ms;
+    transition-timing-function: ease-out;
+    width: 100%;
+}

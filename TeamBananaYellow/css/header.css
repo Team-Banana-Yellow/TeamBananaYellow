@@ -6,7 +6,6 @@
 
 .logo {
     float: left;
-    /*    background: url(../images/minion_3_clear.png) no-repeat;*/
     background-size: 100px 100px;
     width: 100px;
     height: 100px;
@@ -37,12 +36,13 @@
 /*Style for menu links*/
 .navContainer>ul>li a {
     display: block;
-    min-width: 137px;
     text-align: center;
     color: #fff;
     background: #002a36;
     text-decoration: none;
     text-transform: uppercase;
+    width: 100%;
+    min-width: 137px;
 }
 
 /*Hover state for first level links*/
@@ -105,8 +105,20 @@
     display: inline-block;
     position: relative;
 }
+@media screen and (min-width: 781px) and (max-width: 964px){
+    .navContainer>ul>li{
+        padding: 0;
+        margin: 0;
+        vertical-align: middle;
+    }
+    .navContainer>ul>li a {
+        font-size: 90%;
+        min-width: 110px;
+        width: 100%;
 
-@media screen and (max-width : 760px) {
+    }
+}
+@media screen and (max-width : 780px) {
     /*Make dropdown links appear inline*/
     .navContainer ul {
         position: static;

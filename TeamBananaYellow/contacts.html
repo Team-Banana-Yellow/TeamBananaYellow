@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/normalize.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/contacts.css" />
         <link rel="stylesheet" type="text/css" href="css/header.css" />
         <link rel="stylesheet" type="text/css" href="css/footer.css" />
     </head>
@@ -26,6 +27,7 @@
                                 <ul class="hidden">
                                     <li><a href="level-one.html">Ниво 1</a></li>
                                     <li><a href="level-two.html">Ниво 2</a></li>
+                                    <li><a href="level-three.html">Ниво 3</a></li>
                                 </ul>
                             </li>
                             <li><a href="teachers.html">Злодеи</a></li>
@@ -40,21 +42,40 @@
             <main>
                 <div class="mainContainer">
                     <h1>Контакти</h1>
-
                     <p>
-                        Радваме се четете тази страница, което значи, че навярно имате нужда от нас по една или друга причина.
+                        Радваме се, че четете тази страница, което значи, че навярно имате нужда от нас по една или друга причина.
                         За нас ще е удоволствие да обсъдим с вас идеите, които имате за вашия проект, а ние ще дадем компетентно мнение и предложение за изпълнението му.
                         Стотици хора са се доверили на разработчиците от Банана Йелоу Юнивърсити.
-                        Успели сме да се докажем в пазарна ниша, в която единствено количеството банани са от значение.
+                        Успели сме да се докажем в пазарната ниша, в която единствено количеството банани са от значение.
                         А ако искате и вие да се присъедините към нашия екип, може да кандидаствате за следващия сезон.
                     </p>
-                    </p>
-                        С нас преминавате в следващо ниво!
-                    </p>
                     <p>
-                        Можете да ни намерите на посочения адрес на университета.
+                        Можете да ни намерите на посочения адрес на университета:
                     </p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5867.502814603631!2d23.353376820109798!3d42.666623105531635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85cca4a719b7%3A0xdf53fcbcd8e758d7!2z0KHQvtGE0YLRg9C10YDQtdC9INGD0L3QuNCy0LXRgNGB0LjRgtC10YI!5e0!3m2!1sbg!2s!4v1425411107456" width="400" height="300" frameborder="0" style="border:0"></iframe>
+                    <div>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5867.502814603631!2d23.353376820109798!3d42.666623105531635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa85cca4a719b7%3A0xdf53fcbcd8e758d7!2z0KHQvtGE0YLRg9C10YDQtdC9INGD0L3QuNCy0LXRgNGB0LjRgtC10YI!5e0!3m2!1sbg!2s!4v1425411107456" width="400" height="300" frameborder="0" style="border:0"></iframe>
+                    </div>
+                    <form action="#" method="post" class="contact-form">
+                    <h2>Контакт с нас</h2>
+                    <label>
+                        <span>Вашето име:</span>
+                        <input id="name" type="text" name="name" placeholder="Име" required="true" />
+                    </label>
+
+                    <label>
+                        <span>Имейл адрес:</span>
+                        <input id="email" type="email" name="email" placeholder="Имейл адрес" required="true"/>
+                    </label>
+
+                    <label>
+                        <span>Съобщение:</span>
+                        <textarea id="message" name="message" placeholder="Съобщение" required="true"></textarea>
+                    </label>
+                    <label>
+                        <span>&nbsp;</span>
+                        <input type="submit" class="button" value="Изпрати" />
+                    </label>
+                    </form>
                 </div>
             </main>
             <footer>
