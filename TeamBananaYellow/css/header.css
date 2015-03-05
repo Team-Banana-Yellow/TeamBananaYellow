@@ -106,6 +106,9 @@
     position: relative;
 }
 @media screen and (min-width: 781px) and (max-width: 964px){
+    #wrapper{
+        width: 99%;
+    }
     .navContainer>ul>li{
         padding: 0;
         margin: 0;
@@ -115,8 +118,13 @@
         font-size: 90%;
         min-width: 110px;
         width: 100%;
-
     }
+    .top-bar{
+        background-size: 100% 100%;
+        height: 125px;
+        max-width: 964px;
+    }
+
 }
 @media screen and (max-width : 780px) {
     /*Make dropdown links appear inline*/
@@ -131,6 +139,19 @@
     /*Display menu link*/
     .show-menu {
         display: block;
+    }
+    .top-bar{
+        background-size: 100% 100%;
+        height: 110px;
+        max-width: 780px;
+    }
+
+}
+@media screen and (max-width : 640px){
+    .top-bar{
+        background-size: 100% 100%;
+        height: 100px;
+        max-width: 640px;
     }
 }
 
@@ -152,5 +173,7 @@
     .top-bar {
         height: 96px;
         background: url("../images/header6_m.png");
+        background-size: 100% 100%;
+        max-width: 480px;
     }
 }
