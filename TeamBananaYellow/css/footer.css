@@ -69,12 +69,20 @@ button.social-button {
 button.social-button:hover {
     cursor: pointer;
 }
-
-.warning-border{
-    background: url("../images/hor-border2.png");
-    width: 960px;
-    height: 8px;
+#validators{
+    width: 28%;
+    display: inline-block;
 }
+
+#validators img:hover{
+    opacity: 0.7;
+    color: #134c6f;
+}
+
+#validators img{
+    float: right;
+}
+
 /*Responsive Styles*/
 
 @media screen and (max-width : 760px){
@@ -87,10 +95,5 @@ button.social-button:hover {
     footer > article > ul > li {
         display: block;
     }
-
-}
-
-@media screen and (max-width: 480px) {
-
 
 }

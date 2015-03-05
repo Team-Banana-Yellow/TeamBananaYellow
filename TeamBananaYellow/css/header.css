@@ -1,7 +1,7 @@
 .top-bar{
     position: relative;
     height: 140px;
-    background: url("../images/head140_6.png") #00497f;
+    background: url("../images/head140_6.png") no-repeat;
 }
 
 .logo {
